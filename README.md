@@ -15,6 +15,7 @@ counters simultaneously, i.e. when a customer arrives and a counter is free, he 
 wicket. We will assume that when the two wickets are free, the first is occupied in priority. When
 the two counters are occupied, the customers are in line. We often encode the state of the system as
 next :
+
 - (0, 0) both wickets are free
 - (1, 0) only the first wicket is occupied,
 - (0, 1) only the second wicket is occupied,
